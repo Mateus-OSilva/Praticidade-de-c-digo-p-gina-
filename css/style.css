@@ -1,0 +1,47 @@
+body {
+    background: #051D3B;
+}
+
+.container-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0 0 0;
+}
+
+.imagem-logo {
+    width: 250px;
+    height: 80px;
+
+}
+
+.botao-input {
+    width: 752px;
+    height: 56px;
+    color: #FFFFFF;
+    text-indent: 10px;
+    background-color: rgb(68, 63, 78);
+    text-align: left;
+    border-radius: 5px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 80px;
+}
+
+.nav-opcoes {
+    display: column;
+}
+
+.lista-nav::before{
+    content: \;
+}
+
+.menu-nav {
+    color: #FFFFFF;
+}
+
+.lista-nav {
+    color: #FFFFFF;
+}

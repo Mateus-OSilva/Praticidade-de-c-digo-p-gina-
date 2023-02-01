@@ -1,5 +1,6 @@
 body {
     background: #051D3B;
+    display: block;
 }
 
 .container-div {
@@ -22,7 +23,7 @@ body {
     text-indent: 10px;
     background-color: rgba(255, 255, 255, 0.16);
     text-align: left;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .foto-perfil {
@@ -34,13 +35,19 @@ body {
     display: column;
 }
 
-.lista-nav::before {
-    background-image: url(//Praticidade-de-c-digo-p-gina-/imagens/programacao.png);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    margin-right: 10px;
+main {
+    display: block;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+        "nav-opcoes"
+        "menu-nav"
+        "article-projeto input-article1";
+    column-gap: auto;
+    grid-column: 3;
 }
 
 .menu-nav {
@@ -66,4 +73,37 @@ body {
 .menu-nav a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+
+.article-codigo {
+    display: column;
+}
+
+.article-codigo a {
+    color: #FFFFFF;
+}
+
+.input-highlight {
+    width: 600px;
+    height: 56px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.16);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.article-projeto img {
+    padding: 64px 0 10px 0;
+    display: flex;
+}
+
+.input-article1 {
+    width: 252px;
+    height: 56px;
+    gap: 8px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.16);
+    text-align: left;
+    border-radius: 8px;
 }

@@ -34,8 +34,13 @@ body {
     display: column;
 }
 
-.lista-nav::before{
-    content: \;
+.lista-nav::before {
+    background-image: url(//Praticidade-de-c-digo-p-gina-/imagens/programacao.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .menu-nav {
